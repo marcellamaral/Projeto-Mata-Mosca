@@ -1,0 +1,72 @@
+html{
+	min-width: 657px;
+	min-height: 590px;
+	cursor: url(../imagens/mata_mosquito.png) 30 30, auto;
+}
+
+body{
+	background: url(../imagens/bg.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.mosquito1{
+	width: 50px;
+	height: 50px;
+}
+
+.mosquito2{
+	width: 20px;
+	height: 20px;
+}
+
+.mosquito3{
+	width: 70px;
+	height: 70px;
+}
+
+.invertido1{
+	transform: scaleX(1);
+}
+
+.invertido2{
+	transform: scaleX(-1);
+}
+
+#menu{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 10px;
+	font-weight: bolder;
+	border: 1px solid black;
+}
+
+#tela-go{
+	text-align: center;
+}
+
+#gameover{
+	margin: 10px auto;
+	width: 500px;
+	height: 500px;
+}
+
+#tela-go button{
+	width: 150px;
+	height: 40px;
+	background-color: #4d79ff;
+	border: 1px solid black;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+#tela-go button:hover {
+	background-color: #b3c6ff;
+	color: black;
+}
+
+#opcoes{
+	margin-top: 5px;
+}

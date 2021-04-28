@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mata Mosquito</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<script>
+	
+
+	function iniciar(){
+
+		var nivel = document.getElementById('opcoes').value;
+
+		if(nivel === ''){
+
+			alert('Escolha um nivel para iniciar!');
+		}
+
+		else{
+			window.location.href = "game.html?" + nivel;
+		}
+	}
+
+
+	</script>
+
+</head>
+<body>
+
+	<div id="tela-go">
+		<div id="gameover">
+			<img src="imagens/game.png">
+		</div>
+
+		<div>
+
+			<div>
+				<button onclick="iniciar()">Iniciar</button>
+			</div>
+
+			<div>
+			<select id="opcoes">
+				<option value="">Selecione o Nivel</option>
+				<option value="facil">Fácil</option>
+				<option value="medio">Médio</option>
+				<option value="dificil">Dificil</option>
+			</select>
+			</div>
+
+		</div>
+		
+	</div>
+
+
+	</div>
+
+
+</body>
+</html>
